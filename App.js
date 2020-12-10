@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 var styles = {
   color: "#ace0cf",
-  padding: "5px 450px 0px",
+  padding: "5px 300px 0px",
   fontFamily: "emoji,cursive,sans-serif",
   fontStyle: "italic",
   textDecoration: "underline"
@@ -19,7 +19,7 @@ function PING ()
 {
   this.render = ()=>{
           return  <div>
-                <h1 style = {styles}>PING PONG GAME</h1>
+                <h1 style = {styles}>GAMING WEBSITE - PING PONG GAME</h1>
                 <h4 style = {{color:"red",fontFamily:"cursive",padding:"0px 0px 0px 350px"}}>
                   *Refresh the page everytime you start the game . Press Right Arrow to start 
                 </h4>
